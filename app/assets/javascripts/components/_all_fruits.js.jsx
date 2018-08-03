@@ -8,6 +8,7 @@ const AllFruits = (props) => {
 				<Fruit 
 				fruit={fruit} 
 				handleDelete={props.handleDelete}
+				handleUpdate={props.handleUpdate}
 				/>
 			</div>
 		)
